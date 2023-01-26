@@ -1,6 +1,8 @@
 @import'main.css';
 
-.details{float:right; 
+.details{
+    float:right;
+    margin: -300px 300px;
     font: 20px "Open Sans", Calibri, sans-serif;
     background-color: rgb(16, 197, 95);
     color: rgb(33, 18, 175);
@@ -28,7 +30,31 @@
         margin: 0;
         box-shadow: 3px 3px 4px black;
     }
-    .photo1{ width: 300px;height: 300px;
+    .photo1{ margin: 50px 150px; width: 300px;height: 300px;
         border:solid red 1px ;}
 
-    .presentation{} 
+.presentation{
+    margin: 150px;
+    width: 600px;
+    box-shadow: 3px 3px 10px black;
+    } 
+.experience{
+    float:right;
+    margin: -440px 150px;
+    width: 600px;
+    /* height: 700px; */
+    box-shadow: 3px 3px 10px black;
+}
+
+.formation{
+    margin: 200px 150px;
+    width: 600px;
+    box-shadow: 3px 3px 10px black;
+    }
+
+.hobbies{float:right;
+    margin: -440px 150px;
+    width: 600px;
+    /* height: 700px; */
+    box-shadow: 3px 3px 10px black;}
+    
