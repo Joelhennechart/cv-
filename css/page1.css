@@ -35,26 +35,35 @@
 
 .presentation{
     margin: 150px;
-    width: 600px;
+    width: 650px;
     box-shadow: 3px 3px 10px black;
     } 
 .experience{
     float:right;
     margin: -440px 150px;
-    width: 600px;
-    /* height: 700px; */
-    box-shadow: 3px 3px 10px black;
-}
-
-.formation{
-    margin: 200px 150px;
-    width: 600px;
+    width: 650px;
+    
     box-shadow: 3px 3px 10px black;
     }
 
-.hobbies{float:right;
+.formation{
+    
+    margin: 200px 150px;
+    width: 650px;
+    box-shadow: 3px 3px 10px black;
+    
+    }
+
+.hobbies{
+    float:right;
     margin: -440px 150px;
-    width: 600px;
-    /* height: 700px; */
-    box-shadow: 3px 3px 10px black;}
+    width: 650px;
+    box-shadow: 3px 3px 10px black;
+    }
+.p1{color: white;
+    text-align: left}
+.colone{padding-left: 5px;
+        width: 25%;}
+
+
     
