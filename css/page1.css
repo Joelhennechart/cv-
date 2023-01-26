@@ -35,14 +35,26 @@
 
 .presentation{
     margin: 150px;
-    width: 500px;
+    width: 600px;
     box-shadow: 3px 3px 10px black;
     } 
 .experience{
     float:right;
-    margin: -350px 300px;
-    width: 500px;
+    margin: -440px 150px;
+    width: 600px;
     /* height: 700px; */
     box-shadow: 3px 3px 10px black;
 }
+
+.formation{
+    margin: 200px 150px;
+    width: 600px;
+    box-shadow: 3px 3px 10px black;
+    }
+
+.hobbies{float:right;
+    margin: -440px 150px;
+    width: 600px;
+    /* height: 700px; */
+    box-shadow: 3px 3px 10px black;}
     
