@@ -1,4 +1,10 @@
 @import'main.css';
+a{color: black;}
+    a:hover{text-decoration:yellow;}
+    a:active{color: red;}
+    a:visited{text-decoration: line-through;}
+                
+                
 
 .details{
     float:right;
@@ -30,17 +36,18 @@
         margin: 0;
         box-shadow: 3px 3px 4px black;
     }
-    .photo1{ margin: 50px 150px; width: 300px;height: 300px;
+.photo1{ margin: 50px 150px; width: 300px;height: 300px;
       }
+.fléche{ margin: -50px 1400px;width: 300px;}
 
 .presentation{
-    margin: 150px;
+    margin: 150px -367px;
     width: 650px;
     box-shadow: 3px 3px 10px black;
     } 
 .experience{
     float:right;
-    margin: -440px 150px;
+    margin: 500px 150px;
     width: 650px;
     
     box-shadow: 3px 3px 10px black;
@@ -48,7 +55,7 @@
 
 .formation{
     
-    margin: 200px 150px;
+    margin: 100px 150px;
     width: 650px;
     box-shadow: 3px 3px 10px black;
     
@@ -56,11 +63,12 @@
 
 .hobbies{
     float:right;
-    margin: -440px 150px;
+    margin: 200px 150px;
     width: 650px;
     box-shadow: 3px 3px 10px black;
     }
 .p1{color: white;
+    padding-left: 5px;
     text-align: left}
 .colone{padding-left: 5px;
         width: 25%;}
