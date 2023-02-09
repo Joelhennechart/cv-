@@ -5,7 +5,7 @@ padding: 0;}
 p,h2{color: white;
 }
 h1{
-	/* margin-top: 3vh; */
+	margin-top: 3vh; 
 	text-transform: uppercase;
 	color:rgb(64, 30, 158);
 	background: radial-gradient(red 10px,yellow 30px, #1e90ff 50%);
@@ -24,7 +24,7 @@ font-size: 20px;}
 
 /* header */
 .navbar-content {
-	background: radial-gradient(red 10px,yellow 30px, #1e90ff 50%);
+	/* background: radial-gradient(red 10px,yellow 30px, #1e90ff 50%); */
 	justify-content: space-between;
 	align-items:center;}
 .navbar {
@@ -36,7 +36,11 @@ font-size: 20px;}
 		width: 100%;
 		margin: auto;
 		height: 50px;text-align: center;
- }		
+ }	
+ 
+ footer{
+
+ }
 
 
 
