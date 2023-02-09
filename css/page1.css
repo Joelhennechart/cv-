@@ -10,7 +10,7 @@ a{color: black;}
     float:right;
     margin: -300px 300px;
     font: 20px "Open Sans", Calibri, sans-serif;
-    background-color: rgb(16, 197, 95);
+    background: radial-gradient(yellow 30px, #1e90ff 50%);
     color: rgb(33, 18, 175);
     border-radius: 20px;
     padding: 1px;

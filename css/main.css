@@ -8,7 +8,8 @@ h1{
 	/* margin-top: 3vh; */
 	text-transform: uppercase;
 	color:rgb(64, 30, 158);
-	background-color: rgb(167, 179, 12);
+	background: radial-gradient(red 10px,yellow 30px, #1e90ff 50%);
+	/* background-color: rgb(167, 179, 12); */
 	font-size: 3em;
 	font-style: italic;
 	font-weight: bolder;
@@ -26,7 +27,6 @@ font-size: 20px;}
 	justify-content: space-between;
 	align-items:center;}
 .navbar {
-    background-color: var(--primary);
     position: sticky;
     top: 0;
     width: 100%;
