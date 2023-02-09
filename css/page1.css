@@ -1,10 +1,16 @@
 @import'main.css';
+a{color: black;}
+    a:hover{text-decoration:yellow;}
+    a:active{color: red;}
+    a:visited{text-decoration: line-through;}
+                
+                
 
 .details{
     float:right;
-    margin: -300px 300px;
+    margin: 0px 150px;
     font: 20px "Open Sans", Calibri, sans-serif;
-    background-color: rgb(16, 197, 95);
+    background: radial-gradient(yellow 30px, #1e90ff 50%);
     color: rgb(33, 18, 175);
     border-radius: 20px;
     padding: 1px;
@@ -30,31 +36,43 @@
         margin: 0;
         box-shadow: 3px 3px 4px black;
     }
-    .photo1{ margin: 50px 150px; width: 300px;height: 300px;
-        border:solid red 1px ;}
+.photo1{ margin: 150px 150px; width: 300px;height: 300px;
+      }
+.fléche{ margin: -450px 40%;width: 300px;}
 
 .presentation{
-    margin: 150px;
-    width: 600px;
+    float:right;
+    margin: 450px 10%;
+    width: 650px;
     box-shadow: 3px 3px 10px black;
     } 
 .experience{
-    float:right;
-    margin: -440px 150px;
-    width: 600px;
-    /* height: 700px; */
-    box-shadow: 3px 3px 10px black;
-}
-
-.formation{
-    margin: 200px 150px;
-    width: 600px;
+    float:left;
+    margin: 500px 10%;
+    width: 650px;
+    
     box-shadow: 3px 3px 10px black;
     }
 
-.hobbies{float:right;
-    margin: -440px 150px;
-    width: 600px;
-    /* height: 700px; */
-    box-shadow: 3px 3px 10px black;}
+.formation{
+    float:left;
+    margin: -400px 10%;
+    width: 650px;
+    box-shadow: 3px 3px 10px black;
+    
+    }
+
+.hobbies{
+    float:right;
+    margin: -200px 8%;
+    width: 650px;
+    box-shadow: 3px 3px 10px black;
+    }
+.p1{color: white;
+    padding-left: 5px;
+    text-align: left}
+.colone{padding-left: 5px;
+        width: 25%;}
+
+
     
