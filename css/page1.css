@@ -8,7 +8,7 @@ a{color: black;}
 
 .details{
     float:right;
-    margin: -300px 300px;
+    margin: 0px 150px;
     font: 20px "Open Sans", Calibri, sans-serif;
     background: radial-gradient(yellow 30px, #1e90ff 50%);
     color: rgb(33, 18, 175);
@@ -36,26 +36,27 @@ a{color: black;}
         margin: 0;
         box-shadow: 3px 3px 4px black;
     }
-.photo1{ margin: 50px 150px; width: 300px;height: 300px;
+.photo1{ margin: 150px 150px; width: 300px;height: 300px;
       }
-.fléche{ margin: -50px 1400px;width: 300px;}
+.fléche{ margin: -450px 40%;width: 300px;}
 
 .presentation{
-    margin: 150px -367px;
+    float:right;
+    margin: 450px 10%;
     width: 650px;
     box-shadow: 3px 3px 10px black;
     } 
 .experience{
-    float:right;
-    margin: 500px 150px;
+    float:left;
+    margin: 500px 10%;
     width: 650px;
     
     box-shadow: 3px 3px 10px black;
     }
 
 .formation{
-    
-    margin: 100px 150px;
+    float:left;
+    margin: -400px 10%;
     width: 650px;
     box-shadow: 3px 3px 10px black;
     
@@ -63,7 +64,7 @@ a{color: black;}
 
 .hobbies{
     float:right;
-    margin: 200px 150px;
+    margin: -200px 8%;
     width: 650px;
     box-shadow: 3px 3px 10px black;
     }

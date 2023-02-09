@@ -10,7 +10,7 @@ h1{
 	color:rgb(64, 30, 158);
 	background: radial-gradient(red 10px,yellow 30px, #1e90ff 50%);
 	/* background-color: rgb(167, 179, 12); */
-	font-size: 3em;
+	font-size: 5em;
 	font-style: italic;
 	font-weight: bolder;
 	text-shadow: 4px 4px 6px rgb(230, 219, 219);}
@@ -24,6 +24,7 @@ font-size: 20px;}
 
 /* header */
 .navbar-content {
+	background: radial-gradient(red 10px,yellow 30px, #1e90ff 50%);
 	justify-content: space-between;
 	align-items:center;}
 .navbar {
