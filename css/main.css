@@ -1,6 +1,4 @@
-/* mise a zero */
-*{margin :0;
-padding: 0;}
+
 /* reglage police true type */
 p,h2{color: white;
 }
@@ -14,33 +12,52 @@ h1{
 	font-style: italic;
 	font-weight: bolder;
 	text-shadow: 4px 4px 6px rgb(230, 219, 219);}
- /* photo en background */
-.background{background-image: url("../image/imagedefond4.jpg"); 
+ /*background */
+.background{
+	background: linear-gradient(to bottom right,black,rgb(43, 43, 146),rgb(35, 120, 35));
 	background-size: cover;
+	border: solid 2px green;
 	}
+	
+.p2{font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size: 20px;
+	color: white;
+    padding-left: 5px;
+    text-align: left;
+	font-weight: bolder;
+	text-indent: 5%;
+	margin: 20px 0;
+    }
+
 .p1{font-family:Georgia, 'Times New Roman', Times, serif;
-font-size: 20px;}
+	font-size: 20px;
+	text-align: left;
+	color: white;}
+
+.h2{font-family:Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	
+	color: white;
+}
 
 
 /* header */
 .navbar-content {
-	/* background: radial-gradient(red 10px,yellow 30px, #1e90ff 50%); */
+	background: radial-gradient(red 10px,yellow 30px, #1e90ff 50%); 
 	justify-content: space-between;
 	align-items:center;}
 .navbar {
     position: sticky;
     top: 0;
     width: 100%;
-	z-index: 1;} /*z-index: positionnement 9999=1ier plan, 0=dernier plan */
+	z-index: 9999;} /*z-index: positionnement 9999=1ier plan, 0=dernier plan */
  .container { 
 		width: 100%;
 		margin: auto;
 		height: 50px;text-align: center;
  }	
  
- footer{
-
- }
+ 
 
 
 

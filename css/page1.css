@@ -1,4 +1,112 @@
 @import'main.css';
+/* mise a zero */
+
+*{margin :0;
+    padding: 0;}
+/* responsive */
+@media screen and (max-width: 1999px) {
+ /* inserez vos proprietes css ici   */
+
+a{color: black;}
+    a:hover{text-decoration:yellow;}
+    a:active{color: red;}
+    a:visited{text-decoration: line-through;}
+                
+                
+
+
+    
+
+.photo1{ margin: 150px 150px; width: 300px;height: 300px;
+    border-radius: 100%;
+    overflow: hidden;
+      }
+.fleche{ position: relative;
+    top: -450px; left: 40% ;width: 500px;}
+
+.formation{
+    /* float:left; */
+    /* margin: -20% 10%; */
+    position: relative;
+    top: -900px; left :5%; 
+    width: 650px;
+    box-shadow: 3px 3px 10px black;    
+    }
+
+.experience{
+     /* float:left; */
+     position: relative;
+     top: -150px; left :5%; 
+    /* margin: 25% 10%; */
+    width: 650px;    
+    box-shadow: 3px 3px 10px black;
+    }
+
+.details{
+     /* float:right; */
+    position: relative;
+    top: -770px; right: -70%;
+    margin: 7% 12%; 
+    font: 20px "Open Sans", Calibri, sans-serif;
+    background: radial-gradient(yellow 30px, #1e90ff 50%);
+    color: rgb(33, 18, 175);
+    border-radius: 20px;
+    padding: 1px;
+    width: 170px;
+    height: 50px;
+    box-shadow: 3px 3px 4px black;}
+    
+    .details > summary { 
+        margin-top:  10px; 
+        margin-left: -1px; 
+        padding: 2px 6px;
+        width: 150px;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        }
+    
+    .details > p {
+        text-align: center;
+        border-radius: 0 0 10px 10px;
+        background-color: #ddd;
+        padding: 2px 6px;
+        margin: 0;
+        box-shadow: 3px 3px 4px black;        
+        }
+.presentation{
+    position: relative;
+    top:350px; right: 400px;
+    /* float:right; */
+    /* margin: 110% -22%; */
+    width: 650px;
+    box-shadow: 3px 3px 10px black;
+    } 
+.hobbies{
+    /* float: right; */
+    position: relative;
+    top: -350px; left:5% ; 
+    width: 650px;
+    box-shadow: 3px 3px 10px black;
+    }
+
+
+
+
+.colone{padding-left: 5px;
+        width: 25%;}
+
+/* .footer{margin: bottom 0%; */
+    /* display: flex;
+     align-items: flex-end;  
+      }  */  
+       
+}
+
+/* responsive */
+@media all and (min-width: 2000px) {
+ /* inserez vos proprietes css ici   */
+
 a{color: black;}
     a:hover{text-decoration:yellow;}
     a:active{color: red;}
@@ -8,13 +116,13 @@ a{color: black;}
 
 .details{
     float:right;
-    margin: 0px 150px;
+    margin: 15% 12%;
     font: 20px "Open Sans", Calibri, sans-serif;
     background: radial-gradient(yellow 30px, #1e90ff 50%);
     color: rgb(33, 18, 175);
     border-radius: 20px;
     padding: 1px;
-    width: 130px;
+    width: 170px;
     height: 50px;
     box-shadow: 3px 3px 4px black;}
 
@@ -22,7 +130,7 @@ a{color: black;}
         margin-top:  10px;
         margin-left: -1px;
           padding: 2px 6px;
-          width: 125px;
+          width: 150px;
           text-align: center;
           border: none;
            cursor: pointer;
@@ -36,43 +144,51 @@ a{color: black;}
         margin: 0;
         box-shadow: 3px 3px 4px black;
     }
+    
+
 .photo1{ margin: 150px 150px; width: 300px;height: 300px;
-      }
-.fléche{ margin: -450px 40%;width: 300px;}
+     border-radius: 20px; }
+.fleche{ margin: -450px 40%;width: 500px;}
 
 .presentation{
     float:right;
-    margin: 450px 10%;
-    width: 650px;
+    margin: 40% -30%;
+    width: 750px;
     box-shadow: 3px 3px 10px black;
     } 
+.hobbies{
+    float: right;
+    margin: 12% 10%; 
+    width: 750px;
+    box-shadow: 3px 3px 10px black;
+    }
 .experience{
-    float:left;
-    margin: 500px 10%;
-    width: 650px;
+    /* float:left; */
+    margin: 35% 10%;
+    width: 750px;
     
     box-shadow: 3px 3px 10px black;
     }
 
 .formation{
-    float:left;
-    margin: -400px 10%;
-    width: 650px;
+    /* float:left; */
+    margin: 20% -35%;
+    width: 750px;
     box-shadow: 3px 3px 10px black;
     
     }
 
-.hobbies{
-    float:right;
-    margin: -200px 8%;
-    width: 650px;
-    box-shadow: 3px 3px 10px black;
-    }
+
 .p1{color: white;
     padding-left: 5px;
-    text-align: left}
+    text-align: left;
+    overflow: auto;}
+
 .colone{padding-left: 5px;
         width: 25%;}
-
-
+        
+.footer{margin: bottom 0%;
+align-items: flex-end;
+              }    
+}
     
