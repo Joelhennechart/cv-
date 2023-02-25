@@ -2,21 +2,12 @@
 /* reglage police true type */
 p,h2{color: white;
 }
-h1{
-	margin-top: 3vh; 
-	text-transform: uppercase;
-	color:rgb(64, 30, 158);
-	background: radial-gradient(red 10px,yellow 30px, #1e90ff 50%);
-	/* background-color: rgb(167, 179, 12); */
-	font-size: 5em;
-	font-style: italic;
-	font-weight: bolder;
-	text-shadow: 4px 4px 6px rgb(230, 219, 219);}
+
  /*background */
 .background{
 	background: linear-gradient(to bottom right,black,rgb(43, 43, 146),rgb(35, 120, 35));
 	background-size: cover;
-	border: solid 2px green;
+	
 	}
 	
 .p2{font-family:Georgia, 'Times New Roman', Times, serif;
@@ -51,7 +42,7 @@ h1{
     top: 0;
     width: 100%;
 	z-index: 9999;} /*z-index: positionnement 9999=1ier plan, 0=dernier plan */
- .container { 
+.container { 
 		width: 100%;
 		margin: auto;
 		height: 50px;text-align: center;
