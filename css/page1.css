@@ -333,6 +333,7 @@ h1{
     position: relative;
     top:350px; right: 400px;
     width: 650px;
+    background-color: rgb(16, 129, 129);
     z-index: 9998;
     box-shadow: 3px 3px 10px black;
     }
@@ -445,6 +446,7 @@ h1{
     position: relative;
     top:350px; right: 600px;
     width: 950px;
+    background-color: rgb(16, 129, 129);
     z-index: 9998;
     box-shadow: 3px 3px 10px black;
         } 
