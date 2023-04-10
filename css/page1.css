@@ -155,13 +155,15 @@ h1{
     font-style: italic;
     font-weight: bolder;
     text-shadow: 4px 4px 6px rgb(230, 219, 219);}
-    
-.contact{position: absolute;
+
+.contact{position: relative;
+    top: 160px; right: -70%;
+    width: 170px;
     color: white;
-    top: 20px; right: 73%;
-    width: 300px;
+    background-color:green;
+    border-radius: 10px;
     box-shadow: 3px 3px 10px black;
-    }
+        }       
     
 .photo1{ display: none;
       }
@@ -169,11 +171,11 @@ h1{
       }
 
 .photo3{ position: absolute;
-    top: 5px; right: 22%;
+    top: 105px; right: 22%;
     }
             
 .photo4{ position: absolute;
-    top: 10px; right: 5%;
+    top: 160px; right: 15%;
     }
 
 .fleche{ position: relative;
@@ -202,7 +204,7 @@ h1{
 
 .details{
     position: relative;
-    top: -160px; right: -55%;
+    top: -80px; right: -55%;
     margin: 7% 12%; 
     font: 20px "Open Sans", Calibri, sans-serif;
     background: radial-gradient(yellow 30px, #1e90ff 50%);
@@ -293,11 +295,11 @@ h1{
         }
 
 .photo3{ position: absolute;
-    top: 35px; right: 12%;
+    top: 20px; right: 12%;
     }
         
 .photo4{ position: absolute;
-    top: 40px; right: 0%;
+    top: 25px; right: 0%;
     }
 
 .fleche{ position: relative;
@@ -416,11 +418,11 @@ h1{
     }
 
 .photo3{ position: absolute;
-    top: 35px; right: 20%;
+    top: 20px; right: 20%;
             }
 
 .photo4{ position: absolute;
-    top: 40px; right: 7%;
+    top: 25px; right: 7%;
        }
 
 .fleche{ position: relative;
