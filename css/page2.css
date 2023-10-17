@@ -1,0 +1,30 @@
+@import'main.css';
+/*background */
+.background{
+	background: linear-gradient(to bottom right,black,rgb(43, 43, 146),rgb(35, 120, 35));
+	background-size: cover;
+    }
+
+/* responsive en dessous 1000px */
+@media all and (max-width: 1050px){
+    /* inserez vos proprietes css ici  */
+.retour{position: absolute;
+    color: white;
+    top: -10px; left: 0%;
+    width: 350px;
+    box-shadow: 3px 3px 10px black;
+    }
+
+}
+
+/* responsive en dessus 1000px */
+@media all and (min-width: 1050px){
+    /* inserez vos proprietes css ici  */
+.retour{position: absolute;
+    color: white;
+    top: -10px; left: 40%;
+    width: 500px;
+    box-shadow: 3px 3px 10px black;
+    }
+.taille{width:1000px;margin-left:auto;margin-right:auto}
+}
